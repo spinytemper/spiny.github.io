@@ -1,0 +1,157 @@
+@import url('https://fots.googleapis.com/css?family=Raleway');
+@import url('https://fots.googleapis.com/css?family=Oswald');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-image: url(stad.jpeg);
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #f9f3f4;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 500%;
+}
+.top {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.top h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #f9f3f4;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 500%;
+}
+.top1 {
+    margin: 0 auto;
+    text-align: center;
+}
+.top1 h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #f9f3f4;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 500%;
+}
+.btn {
+    border-radius: 9px;
+    font-family: 'Oswald', sans-serif;
+    color: #f9f3f4;
+    font-size: 135%;
+    padding: 10px 20px;
+    border: solid #f9f3f4 3px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color:#000;
+    border:solid #000 3px;
+}
+p {
+    font-size: 160%;
+    line-height: 210%;
+    text-align: justify;
+    margin: 30%;
+    font-family: sans-serif;
+}@media screen and (max-width: 768px) {
+    .content h1 {
+        font-size: 250%;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 7px 15px;
+    }
+    p {
+        font-size: 100%;
+        line-height: 160%;
+    }
+}
+a {
+    border: solid #f9f3f4 3px;
+    border-radius: 9px
+}
+li
+{
+    text-decoration: none;
+    list-style-type: none;
+    Left: 20px;
+    position: absolute;
+}
+ul
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+.discord
+{
+    Left: 384px;
+    font-size: 135%;
+    position: absolute;
+    text-decoration: none;
+    color: #f9f3f4;
+    padding: 10px 20px;
+}
+.twitch
+{
+    Left: 768px;
+    font-size: 135%;
+    position: absolute;
+    text-decoration: none;
+    color: #f9f3f4;
+    padding: 10px 20px;
+}
+.youtube
+{
+    Left: 1152px;
+    font-size: 135%;
+    position: absolute;
+    text-decoration: none;
+    color: #f9f3f4;
+    padding: 10px 20px;
+}
+.steam
+{
+    Left: 1536px;
+    font-size: 135%;
+    position: absolute;
+    text-decoration: none;
+    color: #f9f3f4;
+    padding: 10px 20px;
+}
+.discord:hover {
+    color:#000;
+    border:solid #000 3px;
+}
+.twitch:hover {
+    color:#000;
+    border:solid #000 3px;
+}
+.youtube:hover {
+    color:#000;
+    border:solid #000 3px;
+}
+.steam:hover {
+    color:#000;
+    border:solid #000 3px;
+}
